@@ -1,0 +1,35 @@
+/* Contenedor principal centrado */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Estilo del formulario */
+.login-container form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Campos a ocupar todo el ancho */
+.full-width {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Botón alineado al centro */
+button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Mejora en fuentes y diseño */
+mat-form-field {
+  font-family: 'Roboto', sans-serif;
+}
